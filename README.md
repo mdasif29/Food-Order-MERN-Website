@@ -16,7 +16,6 @@ To set up and run the project, follow these steps:
 - Navigate to the `backend` folder and create a file named `.env`.
 - Add the following variables to the `.env` file:
   ```plaintext
-
   
  # MongoDB connection string ( your mongodb url )
 MONGODB_URI="YOUR_MONGODB_URL"
