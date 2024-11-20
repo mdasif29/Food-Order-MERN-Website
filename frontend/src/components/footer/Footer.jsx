@@ -8,10 +8,7 @@ export const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
-            hic repellat sapiente, adipisci, quod voluptatem architecto harum
-            voluptatum nisi vitae ducimus dolores? Pariatur, nemo? Excepturi
-            accusantium ea modi eos in!
+          At Tomato, we celebrate the art of flavor with a menu crafted for everyone. From wholesome vegetarian delights to indulgent non-vegetarian specialties, our dishes are made with the freshest ingredients and a touch of creativity. Whether you're savoring a hearty meat dish or a vibrant veggie creation, every bite is a tribute to great taste.
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />

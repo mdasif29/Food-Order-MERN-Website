@@ -10,7 +10,7 @@ import orderRouter from "./routes/orderRoutes.js"
 
 //app config
 const app = express()
-const port = 4000
+const port = process.env.PORT || 4000;
 
 //middleware
 app.use(express.json())
@@ -18,7 +18,7 @@ app.use(cors())
 
 //endpoint for testing
 app.get("/",(req,res)=>{
-    res.send("hello world")
+    res.send("the guy reading is gay")
 })
 //endpoints
 app.use("/api/food",foodRoutes)
